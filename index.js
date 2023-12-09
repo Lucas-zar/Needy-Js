@@ -15,9 +15,9 @@ let Overdose = false;
 
 Kangel_gif.onclick = function wave(){
     if(!Overdose){
-        Kangel_gif.setAttribute("src","src/needy/kangel-wave.gif");
+        Kangel_gif.setAttribute("src","public/kangel-wave.gif");
     setTimeout(() => {
-        Kangel_gif.setAttribute("src","src/needy/kangel.gif");
+        Kangel_gif.setAttribute("src","public/kangel.gif");
 }, 2500);}
 };
 
@@ -30,12 +30,12 @@ Pills.onclick = function pill_count(){
         Chair_bg.classList.remove("needy-cam-bg")
         Chair_bg.classList.add("needy-cam-bg2")
 
-        Kangel_gif.setAttribute("src","src/needy/overdose.gif");
+        Kangel_gif.setAttribute("src","public/overdose.gif");
         Pills.setAttribute("disabled","");
         Pills.classList.remove("hover:scale-110");
         Pills.style.display = "none";
         setTimeout(() => {
-            Kangel_gif.setAttribute("src","src/needy/overdose.png");
+            Kangel_gif.setAttribute("src","public/overdose.png");
         }, 1000);
         setTimeout(() => {
             Needy_Element.style.display="none";
