@@ -28,22 +28,22 @@
 }
 
 .needy-bg-pattern{
-    background-image: url(src/needy/bg-pattern.svg);
+    background-image: url(/needy/bg-pattern.svg);
 
 }
 
 .needy-bg-pattern-ame{
-    background-image: url(src/needy/bg-pattern-ame.svg);
+    background-image: url(/needy/bg-pattern-ame.svg);
 
 }
 
 .needy-cam-bg{
-    background-image: url(src/needy/chair.png);
+    background-image: url(/needy/chair.png);
     background-size:cover;
 }
 
 .needy-cam-bg2{
-    background-image: url(src/needy/chair2.png);
+    background-image: url(/needy/chair2.png);
     background-size:cover;
 }
 
